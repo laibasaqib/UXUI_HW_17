@@ -9,8 +9,13 @@ span.a {
         padding: 1%;
     }
     .nav {
-        width: 73%;
-        padding: 1%;
+        padding: 0;
+        background-color: #D8E2FB;
+       font-size: larger;
+  word-spacing: 1cm;
+  text-align: left;
+  width: 30%;
+  float: right
     }
     .ul{
         background-color: #D8E2FB;
@@ -21,8 +26,19 @@ span.a {
     .section {
         height: 600px;
         padding: 25px;
-
+        background-color: #D8E2FB;
+        height: 10cm;
     }
+    .img {float: right;
+        padding: 20px;
+    }
+    .h1 { font-size: 46px;}
+
+    .p {
+        font-size: 38px;
+ text-align: center;
+    }
+
     .content {
         width: 500px;
         margin:0 auto;
@@ -31,29 +47,57 @@ span.a {
         display: inline-block;
         vertical-align: top;
         padding: center;
+    
     }
     .img{
         float: right;
         padding: auto;
     }
     .button {
-        border: none;
+        border: 1px solid gray;
         color: black;
         background-color:  #F7F5E9;
+        box-shadow: 0 5px 12px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.2);
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin: 4px 2px;
+        margin: 6px 4px;
         cursor: pointer;
+        box-shadow: #D8E2FB;
+        border-radius: 15px;
       }
-    #footer {
-        position: fixed;
+      .h2 { font-size: 46px;
+    text-align: center;
+      }
+      .p2 {
+        background-color: #F8DCEC;
+        text-align: center;
+        font-size: xx-large;
+        padding: 2%;
+      }
+      .h3 { font-size: 46px;
+        text-align: center;
+          }
+          .p3 {
+            background-color: #FBDFD3;
+            text-align: left;
+            font-size: xx-large;
+            border: solid black;
+            padding: 5%;
+          }
+    .footer {
         bottom: 0;
         width: 100%;
-        height: 60px;   /* Height of the footer */
-        background: #D8E2FB;
-        
+        height: 60px;  
+        background-color: #D8E2FB;
+  font-size: larger;
+   word-spacing: 1cm;
+   text-align: right;
+          padding: auto;    
+          display: flex;
+          justify-content: right;
+          align-items: right;
      }
     
